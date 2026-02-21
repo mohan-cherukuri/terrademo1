@@ -3,5 +3,6 @@ resource "azurerm_resource_group" "rg" {
   location = "koreacentral"
   tags = {
     owner = "dev1"
+    owner = "dev2"
   }
 }
